@@ -1,0 +1,152 @@
+body
+{
+    margin: 0;
+    background-color: #1B262C; 
+}
+
+
+.heading
+{
+    font-size: 80px;
+    margin-top: 20px;
+    text-align: center;
+    color: #A5C9CA;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.tilesContainer
+{
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 180px 180px;
+    grid-gap: 25px;
+    position: relative;
+    justify-content: center;
+}
+
+
+.tile
+{
+    border-radius:10px;
+}
+
+
+.tileRed
+{
+    background-color: #E0144C;
+}
+.tileBlue
+{
+    background-color: #3282B8;
+}
+.tileYellow
+{
+    background-color: #FED049;
+}
+.tileGreen
+{
+    background-color: #68B984;
+}
+
+
+.tileRed:hover
+{
+    background-color: #e0144aa7;
+    transition: 0.5s;
+}
+.tileBlue:hover
+{
+    background-color: #3282b890;
+    transition: 0.5s;
+}
+.tileYellow:hover
+{
+    background-color: #fed14988;
+    transition: 0.5s;
+}
+.tileGreen:hover
+{
+    background-color: #68b98485;
+    transition: 0.5s;
+}
+
+.redActivated
+{
+    background-color: #e0144a34;
+    transition: 0.5s;
+}
+.blueActivated
+{
+    background-color: #3282b829;
+    transition: 0.5s;
+}
+.yellowActivated
+{
+    background-color: #fed1493f;
+    transition: 0.5s;
+}
+.greenActivated
+{
+    background-color: #68b9842e;
+    transition: 0.5s;
+}
+.redDeactivated
+{
+    background-color: #E0144C;
+    transition: 0.5s;
+}
+.blueDeactivated
+{
+    background-color: #3282B8;
+    transition: 0.5s;
+}
+.yellowDeactivated
+{
+    background-color: #FED049;
+    transition: 0.5s;
+}
+.greenDeactivated
+{
+    background-color: #68B984;
+    transition: 0.5s;
+}
+
+.infoSection
+{
+    text-align: center;
+}
+.startButton
+{
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    color: #A5C9CA;
+    padding: 5px 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.startButton:hover
+{
+    color: whitesmoke;
+    background-color: #1d3d4fbc;
+    transition: 0.3s;
+}
+.info
+{
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #A5C9CA;    
+}
+.hidden
+{
+    display: none;
+}
+.noClick
+{
+    pointer-events: none;
+}
